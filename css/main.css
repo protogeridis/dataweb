@@ -49,13 +49,21 @@ table {
 
 
 
-/* Main Stylesheet */
+/* General Styling */
 
 body{
 	background:#00a2ff;
 	font-family:'Titillium Web',sans-serif;
 	font-size:13px;
 	color:white;
+}
+
+a, a:link, a:hover, a:visited, a:active{
+	text-decoration: none;
+}
+
+a:hover{
+	color:inherit;
 }
 
 h1,h2,h3,h4{
