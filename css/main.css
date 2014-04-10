@@ -1,2 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
 /* Main Stylesheet */
 
+body{
+	background:#00a2ff;
+	font-family:'Titillium Web',sans-serif;
+	font-size:13px;
+	color:white;
+}
+
+h1,h2,h3,h4{
+	font-weight: bold;
+}
+h1{
+	font-size:30px;
+}
+h2{
+	font-size:25px;
+}
+
+.wrapper{
+}
+
+.wrapper-light{
+	-webkit-box-shadow: inset 0 0 183px rgba(0,0,0,.43);
+	-moz-box-shadow: inset 0 0 183px rgba(0,0,0,.43);
+	box-shadow: inset 0 0 183px rgba(0,0,0,.43);
+	padding:50px 0 400px 0;
+}
+.wrapper-visual{
+	background: url('../img/intro_visual.png') center bottom no-repeat;
+	background-size:960px;
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+.wrapper-medium{
+	background:#00a2ff;
+}
+.wrapper-dark{
+	background:#002e48;
+}
+
+
+/* Intro */
+
+.event-hero{
+	width:330px;
+	margin:150px auto 0 auto;
+	text-align: center;
+}
+.event-hero h1{
+	color:#003c5e;
+	font-size:67px;
+	text-transform: uppercase;
+}
+.event-hero-top p{
+	font-size:16px;
+	text-transform: uppercase;
+}
+.event-hero-left{
+	float: left;
+}
+.event-hero-right{
+	float: right;
+}
+.event-hero-bottom{
+
+}
+.event-hero-signup{
+	color:white;
+	line-height:45px;
+	margin:20px auto 0 auto;
+	display: block;
+	font-size: 17px;
+	width:200px;
+	text-transform: uppercase;
+	height: 45px;
+	background-color: #e24392;
+	-webkit-box-shadow: 4px 6px rgba(0,60,94,.75);
+	-moz-box-shadow: 4px 6px rgba(0,60,94,.75);
+	box-shadow: 4px 6px rgba(0,60,94,.75);
+}
