@@ -207,6 +207,61 @@ left: 50%;
 margin-left: -5px;
 }
 
+.canvas-container {
+height: 250px;
+}
+.chart-bars{
+	position: absolute;
+	bottom:0;
+	right:0;
+}
+.chart-bar{
+	height:280px;
+	width:30px;
+	background:#008ada;
+	position: relative;
+	margin-right:15px;
+	float:left;
+}
+.chart-fill{
+	position:absolute;
+	bottom:0;
+	width:30px;
+	background:#003c5e;
+	text-align: center;
+	padding-top:10px;
+	-webkit-transition: all 1500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+   -moz-transition: all 1500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+     -o-transition: all 1500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+        transition: all 1500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); /* easeOutQuart */
+
+-webkit-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+   -moz-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+        transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000); /* easeOutQuart */
+}
+.chart-bar:nth-child(1) .chart-fill{
+	height:200px;
+}
+.chart-bar:nth-child(2) .chart-fill{
+	height:150px;
+}
+.chart-bar:nth-child(3) .chart-fill{
+	height:130px;
+}
+.chart-bar:nth-child(4) .chart-fill{
+	height:80px;
+}
+.chart-bar:nth-child(5) .chart-fill{
+	height:40px;
+}
+.chart-fill-pink{
+	background: #e24392;
+}
+.chart-fill-inactive{
+	height:40px!important;
+}
+
 /* Info */
 .tagline{
 	text-transform: uppercase;

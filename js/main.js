@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+
+	$('.chart-fill-inactive').toggleClass('chart-fill-inactive');
+	
 	//Chart JS 
 	options= {
 		scaleShowLabels : false,
@@ -21,6 +24,7 @@ $(document).ready(function(){
 					$("ul[data-liffect]").addClass("play")
 				}
 			});
+
 		}
 	}
 
