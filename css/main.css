@@ -347,29 +347,29 @@
       vertical-align: middle;
    }
    .sponsor-powered {
-margin: 20px auto;
-width: 120px;
-}
+      margin: 20px auto;
+      width: 120px;
+   }
 
 
-/* Footer */
+   /* Footer */
 
-.copyright, .organized{
-   color:#215b7c;
-}
-.copyright{
-   text-align: right;
-}
-.organized{
-   text-align: left;
-}
-.local{
-   text-align: center;
-}
-.fa-heart{
-   color:red;
-   margin:0 5px;
-}
+   .copyright, .organized{
+      color:#215b7c;
+   }
+   .copyright{
+      text-align: right;
+   }
+   .organized{
+      text-align: left;
+   }
+   .local{
+      text-align: center;
+   }
+   .fa-heart{
+      color:red;
+      margin:0 5px;
+   }
 
 
    /* Liffect */
