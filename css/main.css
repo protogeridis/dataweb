@@ -420,8 +420,19 @@
    		max-width: 970px;
    	}
    }
+   @media (max-width:1000px){
+      .canvas-container{
+         transform: scale(0.8,0.8);
+         -webkit-transform: scale(0.8,0.8);
+         height:220px;
+         
+      }
+      .chart-bars {
+         bottom: -30px;
+      }
+   }
    @media (max-width: 768px){
-    .wrapper-absolute{
+     .wrapper-absolute{
       display: none;
    }
    .event-hero {
